@@ -1,0 +1,187 @@
+Book list created (capacity=4, count=0)
+Book added to list: Clean Code
+Book added to list: Operating Systems
+Book added to list: Computer Networks
+Added to waitlist: Clean Code <- Alice
+Added to waitlist: Clean Code <- Bob
+Added to waitlist: Clean Code <- Charlie
+Added to waitlist: Clean Code <- David
+Added to waitlist: Clean Code <- Emma
+Added to waitlist: Operating Systems <- Jane
+Added to waitlist: Operating Systems <- Grace
+Added to waitlist: Operating Systems <- Henry
+Added to waitlist: Computer Networks <- Jack
+Added to waitlist: Computer Networks <- Kate
+Added to waitlist: Computer Networks <- Liam
+Added to waitlist: Computer Networks <- Isla
+Added to waitlist: Computer Networks <- Frank
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: Available
+Categories: programming, best-practices, education
+Waitlist: Alice -> Bob -> Charlie -> David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: Available
+Categories: systems, education
+Waitlist: Jane -> Grace -> Henry
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: Available
+Categories: networks, education
+Waitlist: Jack -> Kate -> Liam -> Isla -> Frank
+---------------------------
+
+Checked out: Clean Code -> Alice
+Checked out: Operating Systems -> Jane
+Already available: Computer Networks
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: On Loan to Alice
+Categories: programming, best-practices, education
+Waitlist: Bob -> Charlie -> David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: On Loan to Jane
+Categories: systems, education
+Waitlist: Grace -> Henry
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: Available
+Categories: networks, education
+Waitlist: Jack -> Kate -> Liam -> Isla -> Frank
+---------------------------
+
+Checked out: Computer Networks -> Jack
+Already on loan: Clean Code - held by Alice
+Returned: Operating Systems <- Jane
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: On Loan to Alice
+Categories: programming, best-practices, education
+Waitlist: Bob -> Charlie -> David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: Available
+Categories: systems, education
+Waitlist: Grace -> Henry
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: On Loan to Jack
+Categories: networks, education
+Waitlist: Kate -> Liam -> Isla -> Frank
+---------------------------
+
+Returned: Clean Code <- Alice
+Checked out: Operating Systems -> Grace
+Already on loan: Computer Networks - held by Jack
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: Available
+Categories: programming, best-practices, education
+Waitlist: Bob -> Charlie -> David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: On Loan to Grace
+Categories: systems, education
+Waitlist: Henry
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: On Loan to Jack
+Categories: networks, education
+Waitlist: Kate -> Liam -> Isla -> Frank
+---------------------------
+
+Returned: Computer Networks <- Jack
+Checked out: Clean Code -> Bob
+Already on loan: Operating Systems - held by Grace
+Returned: Clean Code <- Bob
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: Available
+Categories: programming, best-practices, education
+Waitlist: Charlie -> David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: On Loan to Grace
+Categories: systems, education
+Waitlist: Henry
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: Available
+Categories: networks, education
+Waitlist: Kate -> Liam -> Isla -> Frank
+---------------------------
+
+Checked out: Clean Code -> Charlie
+Returned: Operating Systems <- Grace
+Checked out: Computer Networks -> Kate
+Returned: Computer Networks <- Kate
+Checked out: Operating Systems -> Henry
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: On Loan to Charlie
+Categories: programming, best-practices, education
+Waitlist: David -> Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: On Loan to Henry
+Categories: systems, education
+Waitlist: (empty)
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: Available
+Categories: networks, education
+Waitlist: Liam -> Isla -> Frank
+---------------------------
+
+Returned: Clean Code <- Charlie
+Checked out: Clean Code -> David
+Checked out: Computer Networks -> Liam
+Returned: Operating Systems <- Henry
+No holds for: Operating Systems
+
+===== BOOK CATALOGUE =====
+Title: Clean Code
+ID: 123  Year: 1999
+Status: On Loan to David
+Categories: programming, best-practices, education
+Waitlist: Emma
+---------------------------
+Title: Operating Systems
+ID: 55  Year: 2014
+Status: Available
+Categories: systems, education
+Waitlist: (empty)
+---------------------------
+Title: Computer Networks
+ID: 310  Year: 2011
+Status: On Loan to Liam
+Categories: networks, education
+Waitlist: Isla -> Frank
+---------------------------
+
